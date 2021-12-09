@@ -1,6 +1,6 @@
 # Prrogrammer salary
 
-Script calculate average salary for top-10 programmer languages from vacansies [HeadHanter](https://ekaterinburg.hh.ru/) and [SuperJob](https://www.superjob.ru/).
+Script calculate average salary for top-10 programmer languages from [HeadHanter](https://ekaterinburg.hh.ru/) and [SuperJob](https://www.superjob.ru/) vacansies.
 
 ## Installing
 
@@ -17,14 +17,14 @@ Python3 -m venv your_enviroment_name
 ```Bash
 pip install -r requirements.txt
 ```
-- Creat `.env` file with [superjob](https://api.superjob.ru/register) api key:
+- Create `.env` file with var for [superjob](https://api.superjob.ru/register) api key:
 ```
 SJ_SECRET_KEY=your_superjob_api_key
 ```
 
 ## Get started
 
-- Run from terminal in project dir:
+- Run from terminal:
 ```Bash
 python3 main.py
 ```
